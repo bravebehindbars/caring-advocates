@@ -1,0 +1,196 @@
+body{
+	background-image: url("../photos/texture1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: bottom;
+}
+.images{
+	display: flex;
+	flex-direction: row;
+  justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+	.card{
+		display: grid;
+		gap: 50px 100px;
+		grid-template-columns: auto;
+		padding: 15px;
+}
+.card >div{
+	padding: 20px;
+}
+.paragraph{
+	border: solid;
+	border-color: navy ;
+	display:flex;
+	flex-direction:column ;
+	align-items:center;
+	font-size:30px;
+	font-style:fancy;
+	border: 80px;
+}
+.paragraph3{
+	background-color: beige;
+	border: dotted;
+	border-color:navy ;
+	display:flex;
+	flex-direction:column ;
+	align-items:center ;
+	font-size:40px ;
+	margin:50px ;
+	padding:40px ;
+	text-align:center ;	
+}
+.bigbox{
+	display: flex;
+	flex-direction: row;
+	padding: 50px;
+}
+.textbox{
+  padding: 40px;
+  margin:30px ;
+  background-color:lightgrey;
+  border-radius: 27px;
+  font-size:40px;
+}
+.textboxtitle{
+	text-align: center;
+	font-size: 50px;
+	font-size:70px ;
+	color: dark blue;
+}
+.header{
+	border: solid navy 3px;
+	background-color: navy;
+	text-align: center ;
+	color: white;
+	font-size: 50px;
+	padding: 60px;
+	font-style: italic;
+}
+.top{ 
+	border:double;
+	border-color:navy;
+	text-align:center;
+	padding: 20px;
+	font-size:30px;
+	font-style: georgia;
+	font-color:black;
+	background-color: beige;
+}
+ .flex{
+ 	border-style:solid ;
+ 	border-color: navy;
+ 	font-size: 30px;
+ 	padding: 60px;
+ 	margin: 60px;
+ 	border-style: double;
+ 	font-style: normal;	
+ }
+ .list{
+ 	border-style: solid;
+ 	border-color: navy ;
+ 	font-size:normal ;
+ }
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+  position: sticky;
+  top: 0px;
+}
+.navul:hover {
+	background-color: purple;
+}
+.navli {
+  float: right;
+}
+
+.navli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navli a:hover {
+  background-color: #111;
+}
+
+.paragraph4{
+	text-align: center;
+	background-color:lightgrey ;
+	margin: 50px;
+	padding: 40px;
+	width: 30%;
+	font-style: italic;
+	flex-wrap: ;
+	font-size: 20px;
+}
+.myrow{
+	display: flex;
+	flex-direction: row;
+	border: navy 2px;
+}
+ /* secondpage*/
+ .contain{
+ 	background-color:lightblue;
+ 	padding: 30px;
+ 	margin: 100px;
+ }
+  .servicesparagraph{
+	border-style:solid ;
+ 	border-color: navy;
+ 	font-size:30px;
+ 	font-color: black;
+ 	padding: 40px;
+ 	margin: 40px;
+ 	border-style:outset;
+ 	font-style:fancy;	
+ 	background-color:#f2f2f2;
+}
+.paragraph2{
+	border: dotted;
+	border-color: navy;
+	display:flex;
+	flex-direction:column ;
+	align-items:center;
+	font-size:30px;
+	margin: 50px;
+	padding: 40px;
+	text-align: center;
+	background-color:#f2f2f2;
+ }
+/* Donation styling */
+.topper{
+	text-align: center;
+	font-size: 30px;
+	margin: 30px;
+}
+.donationparagraph{
+	border-style:solid ;
+	border-color: navy;
+	font-size: 40px;
+	padding: 40px;
+	margin: 40px;
+	border-style:initial;
+	font-style: italic;
+	background-color:lightgrey;
+}
+
+
+
+
+
+
+ 
+
+   
+
+
+
